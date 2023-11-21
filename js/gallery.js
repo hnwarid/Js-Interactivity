@@ -34,6 +34,9 @@ function createImageElement(src, alt) {
     imgElement.alt = alt;
     imgElement.onmouseover = function () { upDate(this); };
     imgElement.onmouseout = unDo;
+    imgElement.tabIndex = 0; 
+    imgElement.addEventListener("focus", function () { onFocus(this); });
+    imgElement.addEventListener("blur", function () { onBlur(this); })
     return imgElement;
 }
 
@@ -61,6 +64,22 @@ function unDo(){
     document.getElementById('image').style.backgroundColor = "#8e68ff"; 
     document.getElementById('image').innerHTML = "Hover over an image below to display here.";
 }
+
+function onFocus(previewPic) {
+    previewPic.style.border = "3px solid yellow";
+    upDate(previewPic);
+    console.log("Focus on", previewPic.alt);
+}
+
+function onBlur(previewPic) {
+    previewPic.style.border = "8px solid black";
+    unDo();
+    console.log("Blur on", previewPic.alt);
+}
+
+window.onload = function () {
+    console.log("Gallery loaded.")
+};
 
 // Initialize the gallery
 initializeGallery();
