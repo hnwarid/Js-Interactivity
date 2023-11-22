@@ -21,15 +21,15 @@ Instructions
 12. Complete your peer reviews.
 The javascript functions in the project modifies the HTML content to show the galleries of pictures contained in an array.
 <br>
-The idea of the site is to enrich HTML page with Javacript functionalities, particularly using onload, onFocus, and onBlur besides onmouseover and onmouseleave to add accessibility to users with keyboards. 
+The idea of the site is to enrich HTML page with Javacript functionalities, particularly using onload, onfocus, and onblur besides onmouseover and onmouseleave to add accessibility to users with keyboards. 
 <ul>
   <li>When mouse hover on the preview image, it will be displayed on the designated element, then when mouse leave the preview the element goes back to its default view.</li>
   <li>Similarly, when keyboard is used to navigate the page, onFocus will display the image, then onBlur change the view to default as well.</li> 
 </ul>
-I hosted this site on AWS Amazon S3 when submitting, and here are the demo of the site when it was online:<br>
+I hosted this site on AWS Amazon S3 when I submitted the assignment, and here are the demo of the site when it was online:<br>
 1. Console logs of the functions and the default view of the page:
 <img src="./demo/console_logs_and_default.jpg" style="width=40%"><br>
 2. onmouseover functionality: 
 <img src="./demo/onmouseover_functionality.jpg" style="width=40%"><br>
-3. onFocus functionality: 
+3. onfocus functionality: 
 <img src="./demo/onfocus_functionality.jpg" style="width=40%">
