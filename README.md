@@ -33,3 +33,7 @@ I hosted this site on AWS Amazon S3 when I submitted the assignment, and here ar
 <img src="./demo/onmouseover_functionality.jpg" style="width=40%"><br>
 3. onfocus functionality: 
 <img src="./demo/onfocus_functionality.jpg" style="width=40%">
+
+<br>
+Click <a href="https://www.coursera.org/account/accomplishments/certificate/L8W74C7NAAZN">here</a> to see my certificate of course completion 
+<br>
