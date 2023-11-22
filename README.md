@@ -2,7 +2,7 @@
 Final project of Interactivity with JavaScript from Michigan University on Coursera
 <br>
 <br>
-<strong>Final Project Description</strong>
+<strong>Final Project Description</strong><br>
 Instructions
 1. Use the code from the <a href="https://codepen.io/ColleenEMc/pen/wKYxZa">Interactive Photo Gallery</a> as your starting point.
 2. Update the code to use six images of your choice, making sure to include alternative text for each.
@@ -21,12 +21,11 @@ Instructions
 12. Complete your peer reviews.
 The javascript functions in the project modifies the HTML content to show the galleries of pictures contained in an array.
 <br>
-<br>
 The idea of the site is to enrich HTML page with Javacript functionalities, particularly using onload, onFocus, and onBlur besides onmouseover and onmouseleave to add accessibility to users with keyboards. 
 <ul>
   <li>When mouse hover on the preview image, it will be displayed on the designated element, then when mouse leave the preview the element goes back to its default view.</li>
   <li>Similarly, when keyboard is used to navigate the page, onFocus will display the image, then onBlur change the view to default as well.</li> 
-<ul>
+</ul>
 I hosted this site on AWS Amazon S3 when submitting, and here are the demo of the site when it was online:<br>
 1. Console logs of the functions and the default view of the page:
 <img src="./demo/console_logs_and_default.jpg" style="width=40%"><br>
